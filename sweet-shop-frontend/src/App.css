@@ -1,0 +1,194 @@
+/* ========================
+   Global Styles
+======================== */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  color: #333;
+  background: #e3f2fd;
+  animation: fadeIn 0.6s ease-in-out;
+}
+
+/* ========================
+   Navigation
+======================== */
+nav {
+  background: #ffffff;
+  padding: 14px 24px;
+  border-bottom: 3px solid #007bff;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  display: flex;
+  align-items: center;
+}
+
+nav a {
+  margin-right: 24px;
+  text-decoration: none;
+  font-weight: 600;
+  color: #007bff;
+  position: relative;
+  transition: color 0.3s ease;
+}
+
+nav a:hover {
+  color: #0056b3;
+}
+
+nav a::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -6px;
+  width: 0;
+  height: 2px;
+  background: #007bff;
+  transition: width 0.3s ease;
+}
+
+nav a:hover::after {
+  width: 100%;
+}
+
+/* ========================
+   Layout Container
+======================== */
+.container {
+  max-width: 900px;
+  margin: 40px auto;
+  padding: 32px;
+  background: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.12);
+}
+
+/* ========================
+   Typography
+======================== */
+h2 {
+  margin-bottom: 24px;
+  text-align: center;
+  color: #007bff;
+}
+
+/* ========================
+   Form Elements
+======================== */
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+  max-width: 500px;
+  margin: 0 auto 32px;
+}
+
+.input {
+  padding: 12px 14px;
+  font-size: 16px;
+  border-radius: 6px;
+  border: 1px solid #ddd;
+  transition: border-color 0.3s, box-shadow 0.3s;
+}
+
+.input:focus {
+  outline: none;
+  border-color: #007bff;
+  box-shadow: 0 0 8px rgba(0, 123, 255, 0.35);
+}
+
+/* ========================
+   Buttons
+======================== */
+.button {
+  padding: 12px;
+  font-size: 16px;
+  color: #ffffff;
+  background: linear-gradient(135deg, #007bff, #00bcd4);
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.button:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 16px rgba(0, 123, 255, 0.4);
+}
+
+.button:disabled {
+  background: #cccccc;
+  cursor: not-allowed;
+  box-shadow: none;
+  transform: none;
+}
+
+/* ========================
+   Messages
+======================== */
+.error {
+  color: #dc3545;
+  font-weight: 600;
+  text-align: center;
+}
+
+/* ========================
+   List Layout
+======================== */
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 20px;
+}
+
+/* ========================
+   Colorful Card Styles
+======================== */
+.card {
+  background: linear-gradient(135deg, #ffffff, #e3f2fd);
+  border-radius: 12px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.12);
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+  border-left: 6px solid #007bff;
+}
+
+.card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 10px 24px rgba(0, 0, 0, 0.18);
+}
+
+/* Card title */
+.card b {
+  font-size: 18px;
+  color: #0056b3;
+}
+
+/* Card content */
+.card p {
+  margin: 0;
+  color: #555;
+  line-height: 1.5;
+}
+
+/* ========================
+   Animations
+======================== */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(12px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
