@@ -137,4 +137,7 @@ MIT License.
 
 
 https://github.com/Himanshu7735-cloud/sweet-management/blob/389d3360df7cd22fb34ec764a22930559bc6e554/Product%20page.png
+
 https://github.com/Himanshu7735-cloud/sweet-management/blob/51e4e8f8115ad08fddb27250ad86539b068097a5/Registration%20page.png
+
+https://github.com/Himanshu7735-cloud/sweet-management/blob/79b8b3e539c296f820ced45b89c18ea146292449/Login%20page.png
