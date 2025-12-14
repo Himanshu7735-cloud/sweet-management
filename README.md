@@ -141,3 +141,5 @@ https://github.com/Himanshu7735-cloud/sweet-management/blob/389d3360df7cd22fb34e
 https://github.com/Himanshu7735-cloud/sweet-management/blob/51e4e8f8115ad08fddb27250ad86539b068097a5/Registration%20page.png
 
 https://github.com/Himanshu7735-cloud/sweet-management/blob/79b8b3e539c296f820ced45b89c18ea146292449/Login%20page.png
+
+https://github.com/Himanshu7735-cloud/sweet-management/blob/a1aaae7ee97cf29041bb13e64e73fb9e905a3451/Home%20page.png
