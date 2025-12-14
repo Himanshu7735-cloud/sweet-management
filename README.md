@@ -134,3 +134,6 @@ I used **GitHub Copilot** extensively throughout the development of this project
 
 ## License
 MIT License.
+
+
+https://github.com/Himanshu7735-cloud/sweet-management/blob/389d3360df7cd22fb34ec764a22930559bc6e554/Product%20page.png
